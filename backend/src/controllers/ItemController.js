@@ -95,7 +95,7 @@ class ItemController {
     });
 
     const mailOptions = {
-      from: "hello@gmail.com",
+      from: email,
       to: "guilhem.seyvet@wildcodeschool.com",
       subject: "New message from contact form",
       text: `${message} \n\n Phone: ${phone} \n\n Name: ${name} \n\n Surname: ${surname} \n\n Email: ${email}`,
