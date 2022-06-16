@@ -121,7 +121,7 @@ const transporter = nodemailer.createTransport({
     });
     
 const mailOptions = {
-      from: "youremail@email.com",
+      from: email,
       to: "youremail@email.com", //this is the address to which the email will be sent
       subject: "New message from contact form",
       text: `${message} \n\n Phone: ${phone} \n\n Name: ${name} \n\n Surname: ${surname} \n\n Email: ${email}`,
@@ -146,7 +146,7 @@ return transporter
 In the router.js file, we need to add a route for sending our email :
 
 ```
-router.post("/sendEmail", ItemController.sendEmail);
+router.post("/sendEmail", ItemController.sendMail);
 ```
 
 You can test your route on Postman, in the body, Raw tab, JSON format, add an object :
