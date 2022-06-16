@@ -146,7 +146,7 @@ return transporter
 In the router.js file, we need to add a route for sending our email :
 
 ```
-router.post("/sendEmail", ItemController.sendEmail);
+router.post("/sendEmail", ItemController.sendMail);
 ```
 
 You can test your route on Postman, in the body, Raw tab, JSON format, add an object :
