@@ -121,7 +121,7 @@ const transporter = nodemailer.createTransport({
     });
     
 const mailOptions = {
-      from: "youremail@email.com",
+      from: email,
       to: "youremail@email.com", //this is the address to which the email will be sent
       subject: "New message from contact form",
       text: `${message} \n\n Phone: ${phone} \n\n Name: ${name} \n\n Surname: ${surname} \n\n Email: ${email}`,
