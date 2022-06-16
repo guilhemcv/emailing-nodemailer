@@ -9,5 +9,6 @@ router.get("/items/:id", ItemController.read);
 router.put("/items/:id", ItemController.edit);
 router.post("/items", ItemController.add);
 router.delete("/items/:id", ItemController.delete);
+router.post("/sendEmail", ItemController.sendMail);
 
 module.exports = router;
