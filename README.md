@@ -173,5 +173,5 @@ Now, if you go to http://localhost:3000 on your web browser, you can see the for
 
 you should receive a message on the email address that you put into the "to" key in the mailOptions variable. If not, look into your spams !
 
-
+Video of the correction (in French) : https://drive.google.com/file/d/16CtvjeKPTUoWkQNMvdfi1J8Tg9MWoAyb/view
 
